@@ -1,0 +1,24 @@
+i {
+  font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial Black', sans-serif;
+}
+.danger {
+  color: lightcoral;
+}
+.success {
+  color: lightgreen;
+}
+.nav-link, .navbar-brand {
+  color: black !important;
+}
+.nav-link.active {
+  text-decoration: underline;
+}
+
+/* Charts ct-chart-1 */
+.container [class^="ct-chart"] {
+  height: min(500px, 80svh);
+}
