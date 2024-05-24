@@ -1,5 +1,8 @@
 ### Examen de TecnoNews
 
+- Al terminar envía un zip con tu proyecto a rgiles@metrodoraeducation.com 🚨
+- Indica tu nombre en el correo 🚨
+
 ---
 
 # **Examen de TecnoNews**
