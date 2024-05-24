@@ -60,13 +60,13 @@ Incluye un componente "badge" de Bootstrap que indique el número de posts usand
 
 ---
 
-**Tarea 4 (2 puntos):** Página de artículos
+**Tarea 4 (4 puntos):** Página de artículos
 
 Crea un modal que se abra al hacer clic en una card de la página principal o de la página de artículos. El modal debe mostrar la descripción del artículo y la imagen.
 
 ---
 
-**Tarea 5 (2 puntos):** Página del usuario
+**Tarea 5 (extra 1 puntos):** Página del usuario
 
 Crea una página llamada `profile.php` que muestre la información del usuario de la tabla `users`. La página debe mostrar el nombre, el email y la biografía del usuario.
 
