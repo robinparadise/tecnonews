@@ -14,9 +14,9 @@ function getPosts($category = null) {
 
 function getPostsCount() {
   $conn = connectDB();
-  $sql = "SELECT COUNT(*) FROM articles";
+  $sql = "SELECT COUNT(*) as count FROM articles";
   $result = mysqli_query($conn, $sql);
-  return $result;
+  return $result->fetch_assoc()['count'];
 }
 
 // return fake user data

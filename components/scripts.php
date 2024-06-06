@@ -7,4 +7,25 @@
 
 
 <script>
+  const myModal = document.getElementById('exampleModal')
+
+  myModal.addEventListener('shown.bs.modal', (event, other) => {
+    const button = event.relatedTarget
+    const card = button.parentNode.parentNode
+    console.log({card})
+
+    const cardTitle = card.querySelector('.card-title').textContent
+    const cardCategory = card.querySelector('.card-text').textContent
+    const cardImg = card.querySelector('.card-img').src
+    const cardDescription = card.querySelector('.card-description').textContent
+
+
+
+    myModal.querySelector('.modal-title').textContent = cardTitle
+    // myModal.querySelector('.modal-description').textContent = cardCategory
+    myModal.querySelector('.modal-img').src = cardImg
+    myModal.querySelector('.modal-description').textContent = cardDescription
+  
+  })
+
 </script>
